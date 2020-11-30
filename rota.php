@@ -5,7 +5,7 @@ include_once("recursos.php");
 function rota($metodo, $recurso)
 {
     $metodoPermitido = ['GET', 'POST', 'PUT', 'DELETE'];
-    $recursoPermitido = ['clientes'];
+    $recursoPermitido = ['clientes', 'usuarios', 'produtos'];
 
     if (in_array($metodo, $metodoPermitido)) {
         if (in_array($recurso[0], $recursoPermitido)) {
@@ -18,6 +18,6 @@ function rota($metodo, $recurso)
     }else {
         echo(json_encode(array('status'=>'error','data'=>'metodo não perimitido')));
         header('HTTP/1.1 405 METHOD NOT ALLOWED');
-        header('Allow: GET, POST');
+        header('Allow: GET, POST, PUT, DELETE');
     }
 }
