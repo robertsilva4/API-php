@@ -7,7 +7,7 @@ function loadCard() {
         .then(produtos =>
             produtos.data.forEach(produto => {
                 let html = ''
-                html += `<div class="card" id="id-` + produto.id + `">
+                html += `<div class="card col-4" id="id-` + produto.id + `">
                 <div class="card-header">` + produto.descricao + `</div>
                 <div class="card-body">
                 <p>` + produto.imagem + `</p>

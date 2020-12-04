@@ -3,6 +3,6 @@
 
 $rota = explode("/", $_GET['url'] ?? 'home');
 
-if (file_exists("pages/{$rota[0]}.html")) {
-    include "pages/{$rota[0]}.html";
+if (file_exists("{$rota[0]}.html")) {
+    include "{$rota[0]}.html";
 }

@@ -24,6 +24,9 @@ function update($recurso, $id, $dados)
 
                 $resultado = conn()->prepare($sql);
                 while ($b < $cont) {
+                    if ($campos[$b] == 'senha') {
+                        $valores[$b] = password_hash($valores[$b],PASSWORD_DEFAULT,['cost'=>12]);
+                    }
                     $resultado->bindValue(":{$campos[$b]}", $valores[$b]);
                     $b++;
                 }
@@ -51,6 +54,9 @@ function update($recurso, $id, $dados)
 
                 $resultado = conn()->prepare($sql);
                 while ($b < $cont) {
+                    if ($campos[$b] == 'senha') {
+                        $valores[$b] = password_hash($valores[$b],PASSWORD_DEFAULT,['cost'=>12]);
+                    }
                     $resultado->bindValue(":{$campos[$b]}", $valores[$b]);
                     $b++;
                 }
