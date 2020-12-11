@@ -22,7 +22,7 @@ function post($recurso)
     if ($dados) {
         $resultado = create($recurso, $dados);
         if ($resultado) {
-            echo (json_encode(array('status' => 'sucess', 'data' => $resultado)));
+            echo (json_encode(array('status' => 'success', 'data' => $resultado)));
         } else {
             echo (json_encode(array('status' => 'error', 'data' => 'erro ao cadastrar')));
             header('HTTP/1.1 400 BAD REQUEST');
@@ -57,7 +57,7 @@ function delete($recurso, $id = null)
 {
     $resultado = del($recurso, $id);
     if ($resultado && $id != null) {
-        echo (json_encode(array('status' => 'sucess', 'data' => $resultado)));
+        echo (json_encode(array('status' => 'success', 'data' => $resultado)));
     } else {
         echo (json_encode(array('status' => 'error', 'data' => 'nenhum registro encontrado')));
         header('HTTP/1.1 404 NOT FOUND');

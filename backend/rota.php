@@ -5,7 +5,7 @@ include_once("recursos.php");
 function rota($metodo, $recurso)
 {
     $metodoPermitido = ['GET', 'POST', 'PUT', 'DELETE'];
-    $recursoPermitido = ['clientes', 'usuarios', 'produtos'];
+    $recursoPermitido = ['clientes', 'usuarios', 'produtos', 'comentarios'];
 
     if (in_array($metodo, $metodoPermitido)) {
         if (in_array($recurso[0], $recursoPermitido)) {
