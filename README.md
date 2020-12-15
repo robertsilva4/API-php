@@ -10,7 +10,7 @@ API de loja Virtual - CRUD com php
 
 Uma plataforma de vendas e compras de produtos online.
 
-#Funcionalidades
+## Funcionalidades
 
 * Carrinho de Produtos
 * Catálogo de Produtos
@@ -21,3 +21,5 @@ Uma plataforma de vendas e compras de produtos online.
 * Cadastro de Vendedores
 * Seção Login e Senha 
 * CRUD 
+
+## Dependências
