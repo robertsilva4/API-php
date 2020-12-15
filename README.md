@@ -55,3 +55,18 @@ Conectar a aplicação com seu Banco de Dados
 | nome | descricao | valor | datahora | imagem | categoria |
 - Comentarios
 | item_id | user_id | nome_user | comentario | datahora | tipo |
+
+## Problemas 
+Alguns recursos estão indisponíveis devido ao projeto estar incompleto
+
+## Contribuíntes 
+- [Robert Silva] {https://github.com/robertsilva4/}
+
+## Tarefas Pendentes
+- Desenvolver a parte de Comprar Produtos
+- Desenvolver a parte de pagamentos de Produtos
+- Solucionar o erro de Comentários
+- Solucionar erro de Calculo no carrinho de Produtos
+
+## Licença
+
