@@ -1,10 +1,10 @@
-# crud-php
+# Loja Virtual com CRUD em PHP e frontend JavaScript
 
 <p align="center">
   <img src="https://github.com/robertsilva4/API-php/blob/main/frontend/img/lojavirtual.jpg" width="500" height="300">
 </p>
 
-Status do Projeto: Em Desenvolvimento
+Status do Projeto: Em Desenvolvimento ⚠️
 
 API de loja Virtual - CRUD com php
 
