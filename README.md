@@ -14,6 +14,7 @@ Uma plataforma de vendas e compras de produtos online.
 * PHP
 * JavaScript
 * Bootstrap 4
+* Mysql
 
 ## Funcionalidades
 
@@ -39,3 +40,18 @@ Crie as tabelas do Banco de Dados
 * Entre no Banco de dados Mysql
 * Carregue os arquivos da pasta db
 * Execute os comandos de criação das Tabelas Clientes, Usuários, Produtos e Comentários
+
+Conectar a aplicação com seu Banco de Dados 
+* Entre na pasta API-php/backend
+* Abra o arquivo conexao.php com seu editor de texto
+* coloque o IP do seu Banco na variavel $host, a porta do Banco de Dados em $port, a senha em $passwd, na variável $db manter com o valor cadastro
+
+## Databases
+- Clientes
+|nome|email|senha|cep|rua|numero|bairro|complemento|cidade|estado|
+- Usuarios
+|nome|email|senha|cep|rua|numero|bairro|complemento|cidade|estado|
+- Produtos
+|nome|descricao|valor|datahora|imagem|categoria|
+- Comentarios
+|item_id|user_id|nome_user|comentario|datahora|tipo|
