@@ -69,4 +69,4 @@ Alguns recursos estão indisponíveis devido ao projeto estar incompleto
 - Solucionar erro de Calculo no carrinho de Produtos
 
 ## Licença
-
+- MIT Licençe
