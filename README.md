@@ -6,9 +6,14 @@
 
 Status do Projeto: Em Desenvolvimento ⚠️
 
-API de loja Virtual - CRUD com php
-
+API de loja Virtual 
 Uma plataforma de vendas e compras de produtos online.
+
+## Tecnologias
+
+* PHP
+* JavaScript
+* Bootstrap 4
 
 ## Funcionalidades
 
@@ -22,4 +27,15 @@ Uma plataforma de vendas e compras de produtos online.
 * Seção Login e Senha 
 * CRUD 
 
-## Dependências
+## Pré Requisitos
+Crie as tabelas em seu Banco de Dados contidas na pasta db
+
+## Como Rodar a Aplicação
+
+No terminal Clone o projeto 
+* git clone https://github.com/robertsilva4/API-php/
+
+Crie as tabelas do Banco de Dados 
+* Entre no Banco de dados Mysql
+* Carregue os arquivos da pasta db
+* Execute os comandos de criação das Tabelas Clientes, Usuários, Produtos e Comentários
