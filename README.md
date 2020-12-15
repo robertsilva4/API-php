@@ -48,10 +48,10 @@ Conectar a aplicação com seu Banco de Dados
 
 ## Databases
 - Clientes
-|nome|email|senha|cep|rua|numero|bairro|complemento|cidade|estado|
+| nome | email | senha | cep | rua | numero | bairro | complemento | cidade | estado |
 - Usuarios
-|nome|email|senha|cep|rua|numero|bairro|complemento|cidade|estado|
+| nome | email | senha | cep | rua | numero | bairro | complemento | cidade | estado |
 - Produtos
-|nome|descricao|valor|datahora|imagem|categoria|
+| nome | descricao | valor | datahora | imagem | categoria |
 - Comentarios
-|item_id|user_id|nome_user|comentario|datahora|tipo|
+| item_id | user_id | nome_user | comentario | datahora | tipo |
